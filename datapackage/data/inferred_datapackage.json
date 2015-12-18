@@ -1,0 +1,2307 @@
+{
+  "name": "Ireland-Census-2011",
+  "title": "Results from the 2011 Census of Ireland",
+  "description": "Results from the 2011 census of Ireland",
+  "license": {
+    "type": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "In order to create a tabular datapackage a header row was added to each TSV file and each file was saved with the 'csv' extension."
+  },
+  "source": [
+    "http://data.cso.ie/datasets/index.html"
+  ],
+  "resources": [
+    {
+      "path": "type_of_occupancy__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "household_size__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "type_of_occupancy__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "place_of_birth__usually_reside.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "nationality__usually_resident_.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "household_type__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "youngest_child_age_group__pers.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "socio_economic_group_of_refere.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "type_of_accommodation__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender_principal_economic_stat.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "household_type__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender_number_of_unpaid_hours_.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "language_spoken__speakers_of_f.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "total_children_in_family__fami.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "age_group__persons_with_disabi.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "frequency_of_speaking_irish__i.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "number_of_rooms__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender__communal_establishment.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender_highest_level_of_educat.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender_age_education_ceased__p.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "age_group_gender__population.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "children_over_15_in_family__fa.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "size_of_family__families.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "time_leaving_home_to_travel_to.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender_education_status__popul.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "have_a_personal_computer__hous.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "number_of_rooms__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender_field_of_study__populat.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "children_under_and_over_15_in_.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "family_cycle__families.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender__persons_in_communal_es.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "internet__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "religion__population.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "number_of_motor_cars__househol.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "means_of_travel_to_work__schoo.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender_industry__persons_at_wo.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "children_under_15_in_family__f.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "ability_to_speak_irish__popula.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender_social_class__populatio.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "journey_time_to_work__school_o.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "usual_residence_1_year_before_.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "household_year_built__househol.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "sewerage_facility__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "central_heating__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "occupancy_status_on_census_nig.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "size_of_family__children_.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender_occupation__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender_frequency_of_speaking_i.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "ethnic_group__usually_resident.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "gender_general_health_status__.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "type_of_family_children_age__f.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "household_year_built__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "marital_status_gender__populat.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "size_of_family__family_members.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "ability_to_speak_english__spea.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "water_supply__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "household_size__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "youngest_child_age_group__fami.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "family_cycle__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "type_of_accommodation__househo.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "children_born_alive__females_a.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "type_of_family_children_age__c.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

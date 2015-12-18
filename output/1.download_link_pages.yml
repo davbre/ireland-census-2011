@@ -1,63 +1,128 @@
 ---
-- persons-industry.html
-- carers-unpaid-hours.html
-- persons-with-disability.html
-- population-health-status.html
-- age-group-gender-population.html
-- population-marital-status.html
-- children-by-age-and-type-of-family.html
-- children-by-size-of-family.html
-- families-by-age-of-youngest-child.html
-- families-by-children-age-and-type-of-family.html
-- families-by-number-of-children.html
-- families-by-size-of-family.html
-- families-children.html
-- families-children-over-15.html
-- families-children-under-15.html
-- families-family-cycle.html
-- family-members-by-size-of-family.html
-- females-children-born.html
-- persons-by-age-of-youngest-child.html
-- persons-family-cycle.html
-- irish-speakers.html
-- irish-speakers-frequency.html
-- irish-speaking-outside-education.html
-- households-by-sewerage-facility.html
-- households-by-type-of-accommodation.html
-- households-by-type-of-occupancy.html
-- households-by-water-supply.html
-- households-central-heating.html
-- houses-by-number-of-rooms.html
-- houses-by-occupancy-status.html
-- houses-by-year-built.html
-- persons-by-type-of-accommodation.html
-- persons-by-type-of-occupancy.html
-- persons-in-houses-by-number-of-rooms.html
-- persons-in-houses-by-year-built.html
-- persons-socio-economic.html
-- population-social-class.html
-- establishments-communal-establishments.html
-- persons-communal-establishments.html
-- foreign-language-speakers.html
-- foreign-speak-english.html
-- population-by-nationality.html
-- population-by-religion.html
-- population-by-residence-1-year-b4-census.html
-- population-ethnic-group.html
-- population-place-of-birth.html
-- households-cars.html
-- households-internet.html
-- households-personal-computer.html
-- households-by-size.html
-- houses-by-type.html
-- persons-in-houses-by-size.html
-- persons-in-houses-by-type.html
-- population-age-education-ceased.html
-- population-education-status.html
-- population-field-of-study.html
-- population-highest-education.html
-- population-commuting-means.html
-- population-commuting-time.html
-- population-time-leaving-to-work.html
-- population-principal-status.html
-- persons-occupation.html
+- page: persons-industry.html
+  label: Persons at work by industry and sex
+- page: carers-unpaid-hours.html
+  label: Carers by sex and number of unpaid hours per week
+- page: persons-with-disability.html
+  label: Persons with disability by age group
+- page: population-health-status.html
+  label: Population by general health and sex
+- page: age-group-gender-population.html
+  label: Population by sex and year of age
+- page: population-marital-status.html
+  label: Population by sex and marital status
+- page: children-by-age-and-type-of-family.html
+  label: children by type of family and age of children
+- page: children-by-size-of-family.html
+  label: Children in families by size of family
+- page: families-by-age-of-youngest-child.html
+  label: Families by age of youngest child
+- page: families-by-children-age-and-type-of-family.html
+  label: families by type of family and age of children
+- page: families-by-number-of-children.html
+  label: number of families by number of children
+- page: families-by-size-of-family.html
+  label: Families by size of family
+- page: families-children.html
+  label: Family units with children under and over 15
+- page: families-children-over-15.html
+  label: Family units with children over 15
+- page: families-children-under-15.html
+  label: Family units with children under 15
+- page: families-family-cycle.html
+  label: Families by family cycle
+- page: family-members-by-size-of-family.html
+  label: family members by size of family
+- page: females-children-born.html
+  label: Females aged 20 years or over by number of children born alive
+- page: persons-by-age-of-youngest-child.html
+  label: Persons in families by age of youngest child
+- page: persons-family-cycle.html
+  label: Persons by family cycle
+- page: irish-speakers.html
+  label: Population aged 3 or over by ability to speak Irish
+- page: irish-speakers-frequency.html
+  label: Irish speakers aged 3 or over by frequency of speaking Irish
+- page: irish-speaking-outside-education.html
+  label: Irish speakers within education aged 3+, by frequency of speaking Irish outside
+    education
+- page: households-by-sewerage-facility.html
+  label: Permanent private households by sewerage facility
+- page: households-by-type-of-accommodation.html
+  label: Private households by type of accommodation
+- page: households-by-type-of-occupancy.html
+  label: Permanent private households by type of occupancy
+- page: households-by-water-supply.html
+  label: Permanent private households by water supply
+- page: households-central-heating.html
+  label: Permanent private households by central heating
+- page: houses-by-number-of-rooms.html
+  label: Permanent private households by number of rooms
+- page: houses-by-occupancy-status.html
+  label: Occupancy status of permanent dwellings on Census night
+- page: houses-by-year-built.html
+  label: Permanent private households by year built
+- page: persons-by-type-of-accommodation.html
+  label: Persons by type of accommodation
+- page: persons-by-type-of-occupancy.html
+  label: Persons in permanent private households by type of occupancy
+- page: persons-in-houses-by-number-of-rooms.html
+  label: Persons in permanent private households by number of rooms
+- page: persons-in-houses-by-year-built.html
+  label: Persons in permanent private households by year built
+- page: persons-socio-economic.html
+  label: Persons in private households by socio-economic group of reference person
+- page: population-social-class.html
+  label: Population by sex and social class
+- page: establishments-communal-establishments.html
+  label: Communal Establishments
+- page: persons-communal-establishments.html
+  label: Persons in Communal Establishments
+- page: foreign-language-speakers.html
+  label: Speakers of foreign languages by language spoken
+- page: foreign-speak-english.html
+  label: Speakers of foreign languages by ability to speak English
+- page: population-by-nationality.html
+  label: Usually resident population by place of birth and nationality
+- page: population-by-religion.html
+  label: Population by religion
+- page: population-by-residence-1-year-b4-census.html
+  label: Usually resident population aged 1 and over by usual residence 1 year before
+    Census Day
+- page: population-ethnic-group.html
+  label: Usually resident population by ethnic or cultural background
+- page: population-place-of-birth.html
+  label: Usually resident population by place of birth and nationality
+- page: households-cars.html
+  label: Number of households with cars
+- page: households-internet.html
+  label: Number of households with internet
+- page: households-personal-computer.html
+  label: Number of households with a personal computer
+- page: households-by-size.html
+  label: Private households by size
+- page: houses-by-type.html
+  label: Private households by type
+- page: persons-in-houses-by-size.html
+  label: Persons in private households by size
+- page: persons-in-houses-by-type.html
+  label: Persons in private households by type
+- page: population-age-education-ceased.html
+  label: Population aged 15 years and over by age education ceased
+- page: population-education-status.html
+  label: Population aged 15 years and over whose education has not ceased
+- page: population-field-of-study.html
+  label: Population aged 15 years and over by field of study
+- page: population-highest-education.html
+  label: Population aged 15 years and over by sex and highest level of education completed
+- page: population-commuting-means.html
+  label: Population aged 5 years and over by means of travel to work, school or college
+- page: population-commuting-time.html
+  label: Population aged 5 years and over by journey time to work, school or college
+- page: population-time-leaving-to-work.html
+  label: Population aged 5 years and over by time leaving home to travel to work,
+    school or college
+- page: population-principal-status.html
+  label: Population aged 15 years and over by principal economic status and sex
+- page: persons-occupation.html
+  label: Persons at work or unemployed by occupation and sex

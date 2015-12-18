@@ -1,4 +1,4 @@
-require_relative 'helpers/__init__.rb'
+require_relative 'config/__init__.rb'
 
 # keep n observations from each tsv file. The reason for this is to create
 # a small file which can be opened quickly to get an idea of the contents

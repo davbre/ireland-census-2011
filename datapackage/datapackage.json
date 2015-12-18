@@ -1,0 +1,2369 @@
+{
+  "name": "Ireland-Census-2011",
+  "title": "Results from the 2011 Census of Ireland",
+  "description": "Results from the 2011 census of Ireland",
+  "license": {
+    "type": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "In order to create a tabular datapackage a header row was added to each TSV file and each file was saved with the 'csv' extension."
+  },
+  "source": [
+    "http://data.cso.ie/datasets/index.html"
+  ],
+  "resources": [
+    {
+      "path": "type_of_occupancy__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons in permanent private households by type of occupancy"
+    },
+    {
+      "path": "household_size__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Private households by size"
+    },
+    {
+      "path": "type_of_occupancy__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Permanent private households by type of occupancy"
+    },
+    {
+      "path": "place_of_birth__usually_reside.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Usually resident population by place of birth and nationality"
+    },
+    {
+      "path": "nationality__usually_resident_.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Usually resident population by place of birth and nationality"
+    },
+    {
+      "path": "household_type__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Private households by type"
+    },
+    {
+      "path": "youngest_child_age_group__pers.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons in families by age of youngest child"
+    },
+    {
+      "path": "socio_economic_group_of_refere.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons in private households by socio-economic group of reference person"
+    },
+    {
+      "path": "type_of_accommodation__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons by type of accommodation"
+    },
+    {
+      "path": "gender_principal_economic_stat.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population aged 15 years and over by principal economic status and sex"
+    },
+    {
+      "path": "household_type__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons in private households by type"
+    },
+    {
+      "path": "gender_number_of_unpaid_hours_.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Carers by sex and number of unpaid hours per week"
+    },
+    {
+      "path": "language_spoken__speakers_of_f.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Speakers of foreign languages by language spoken"
+    },
+    {
+      "path": "total_children_in_family__fami.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "number of families by number of children"
+    },
+    {
+      "path": "age_group__persons_with_disabi.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons with disability by age group"
+    },
+    {
+      "path": "frequency_of_speaking_irish__i.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Irish speakers aged 3 or over by frequency of speaking Irish"
+    },
+    {
+      "path": "number_of_rooms__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Permanent private households by number of rooms"
+    },
+    {
+      "path": "gender__communal_establishment.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Communal Establishments"
+    },
+    {
+      "path": "gender_highest_level_of_educat.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population aged 15 years and over by sex and highest level of education completed"
+    },
+    {
+      "path": "gender_age_education_ceased__p.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population aged 15 years and over by age education ceased"
+    },
+    {
+      "path": "age_group_gender__population.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population by sex and year of age"
+    },
+    {
+      "path": "children_over_15_in_family__fa.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Family units with children over 15"
+    },
+    {
+      "path": "size_of_family__families.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Families by size of family"
+    },
+    {
+      "path": "time_leaving_home_to_travel_to.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population aged 5 years and over by time leaving home to travel to work, school or college"
+    },
+    {
+      "path": "gender_education_status__popul.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population aged 15 years and over whose education has not ceased"
+    },
+    {
+      "path": "have_a_personal_computer__hous.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Number of households with a personal computer"
+    },
+    {
+      "path": "number_of_rooms__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons in permanent private households by number of rooms"
+    },
+    {
+      "path": "gender_field_of_study__populat.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population aged 15 years and over by field of study"
+    },
+    {
+      "path": "children_under_and_over_15_in_.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Family units with children under and over 15"
+    },
+    {
+      "path": "family_cycle__families.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Families by family cycle"
+    },
+    {
+      "path": "gender__persons_in_communal_es.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons in Communal Establishments"
+    },
+    {
+      "path": "internet__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Number of households with internet"
+    },
+    {
+      "path": "religion__population.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population by religion"
+    },
+    {
+      "path": "number_of_motor_cars__househol.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Number of households with cars"
+    },
+    {
+      "path": "means_of_travel_to_work__schoo.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population aged 5 years and over by means of travel to work, school or college"
+    },
+    {
+      "path": "gender_industry__persons_at_wo.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons at work by industry and sex"
+    },
+    {
+      "path": "children_under_15_in_family__f.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Family units with children under 15"
+    },
+    {
+      "path": "ability_to_speak_irish__popula.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population aged 3 or over by ability to speak Irish"
+    },
+    {
+      "path": "gender_social_class__populatio.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population by sex and social class"
+    },
+    {
+      "path": "journey_time_to_work__school_o.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population aged 5 years and over by journey time to work, school or college"
+    },
+    {
+      "path": "usual_residence_1_year_before_.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Usually resident population aged 1 and over by usual residence 1 year before Census Day"
+    },
+    {
+      "path": "household_year_built__househol.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Permanent private households by year built"
+    },
+    {
+      "path": "sewerage_facility__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Permanent private households by sewerage facility"
+    },
+    {
+      "path": "central_heating__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Permanent private households by central heating"
+    },
+    {
+      "path": "occupancy_status_on_census_nig.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Occupancy status of permanent dwellings on Census night"
+    },
+    {
+      "path": "size_of_family__children_.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Children in families by size of family"
+    },
+    {
+      "path": "gender_occupation__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons at work or unemployed by occupation and sex"
+    },
+    {
+      "path": "gender_frequency_of_speaking_i.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Irish speakers within education aged 3+, by frequency of speaking Irish outside education"
+    },
+    {
+      "path": "ethnic_group__usually_resident.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Usually resident population by ethnic or cultural background"
+    },
+    {
+      "path": "gender_general_health_status__.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population by general health and sex"
+    },
+    {
+      "path": "type_of_family_children_age__f.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "families by type of family and age of children"
+    },
+    {
+      "path": "household_year_built__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons in permanent private households by year built"
+    },
+    {
+      "path": "marital_status_gender__populat.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Population by sex and marital status"
+    },
+    {
+      "path": "size_of_family__family_members.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "family members by size of family"
+    },
+    {
+      "path": "ability_to_speak_english__spea.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Speakers of foreign languages by ability to speak English"
+    },
+    {
+      "path": "water_supply__households.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Permanent private households by water supply"
+    },
+    {
+      "path": "household_size__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons in private households by size"
+    },
+    {
+      "path": "youngest_child_age_group__fami.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Families by age of youngest child"
+    },
+    {
+      "path": "family_cycle__persons.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Persons by family cycle"
+    },
+    {
+      "path": "type_of_accommodation__househo.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Private households by type of accommodation"
+    },
+    {
+      "path": "children_born_alive__females_a.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "Females aged 20 years or over by number of children born alive"
+    },
+    {
+      "path": "type_of_family_children_age__c.csv",
+      "format": "csv",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "location_code",
+            "type": "string"
+          },
+          {
+            "name": "location_type",
+            "type": "string"
+          },
+          {
+            "name": "location_label",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "category2",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ]
+      },
+      "description": "children by type of family and age of children"
+    }
+  ]
+}
