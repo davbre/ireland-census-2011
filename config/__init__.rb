@@ -7,6 +7,7 @@ require 'csv'
 require 'json'
 require_relative '../helpers/helpers'
 
+ROOT_PATH = File.dirname(File.dirname(__FILE__))
 CSO_CENSUS_2011_HOME = "http://data.cso.ie/"
 CSO_CENSUS_2011_LINK_PAGE = CSO_CENSUS_2011_HOME + "datasets/"
 CSO_CENSUS_2011_DOWNLOAD_PAGE = CSO_CENSUS_2011_HOME + "downloads/"

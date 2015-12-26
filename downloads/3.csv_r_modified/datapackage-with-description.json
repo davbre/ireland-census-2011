@@ -1,15 +1,6 @@
 {
-  "name": "Ireland-Census-2011",
-  "title": "Results from the 2011 Census of Ireland",
-  "description": "Results from the 2011 census of Ireland",
-  "license": {
-    "type": "CC-BY-4.0",
-    "url": "https://creativecommons.org/licenses/by/4.0/",
-    "changes": "In order to create a tabular datapackage a header row was added to each TSV file and each file was saved with the 'csv' extension."
-  },
-  "source": [
-    "http://data.cso.ie/datasets/index.html"
-  ],
+  "name": "--NAME--",
+  "title": "--TITLE--",
   "resources": [
     {
       "path": "ability_to_speak_english__spea.csv",
